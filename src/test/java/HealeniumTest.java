@@ -3,23 +3,14 @@ import page.CheckoutPage;
 
 import static org.testng.Assert.assertTrue;
 
-/**
- * Project Name    : healenium-demo
- * Developer       : Osanda Deshan
- * Version         : 1.0.0
- * Date            : 10/17/2021
- * Time            : 7:31 PM
- * Description     :
- **/
-
-public class HealeniumTest extends BaseTest {
+public class HealeniumTest extends BaseTest{
 
     @Test
-    public void testCheckoutWithAllFields() {
+    public void testCheckoutWithAllFields(){
         new CheckoutPage(driver)
-                .inputFirstName("Osanda")
-                .inputLastName("Nimalarathna")
-                .inputUsername("osanda")
+                .inputFirstName("Jaime")
+                .inputLastName("De Los Rios")
+                .inputUsername("cdJanu")
                 .inputEmail("osanda@mailinator.com")
                 .inputAddress1("Poramba")
                 .inputAddress2("Ambalangoda")
